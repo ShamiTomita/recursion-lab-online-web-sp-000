@@ -48,17 +48,17 @@ function addUpTo(array, index) {
 }
 array = [2, 3, 1, 4]
 function maxOf(array){
-  numbers = array.slice()
-  if (numbers.length == 1){ //base case, if we are at the bottom of the barrel, as in no more numbers to compare, we should return the remaining number at index[0] because last one standing is our biggest index 
-    return numbers[0]
+  nums = array.slice()
+  if (nums.length == 1){ //base case, if we are at the bottom of the barrel, as in no more numbers to compare, we should return the remaining number at index[0] because last one standing is our biggest index 
+    return nums[0]
   }
   if (numbers[0] < numbers[1]){
     numbers.splice(0,1);
   }
   else {
-    numbers.splice(1, 1);
+    nums.splice(1, 1);
   }
-  return maxOf(numbers);
+  return maxOf(nums);
 }
 
 function includesNumber(){
