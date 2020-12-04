@@ -12,12 +12,7 @@ function printString(myString) {
 }
 
 function reverseString(myString){
-  if (myString.length > 1){
-    let mySubString = myString.substring(0, myString.length-1);
-    console.log (reverseString(mySubString));
-  } else {
-    return true;
-  }
+  
 }
 
 function isPalindrome(myString){
