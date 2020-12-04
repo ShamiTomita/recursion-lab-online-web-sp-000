@@ -46,13 +46,15 @@ function addUpTo(array, index) {
     return addUpTo(array, index - 1) + array[index];
   }
 }
-
+array = [2, 3, 1, 4]
 function maxOf(array){
   numbers = array.slice()
   if (numbers.length == 1){ //base case, if we are at the bottom of the barrel, as in no more numbers to compare, we should return the remaining number at index[0] because last one standing is our biggest index 
     return numbers[0]
   }
-  if (numbers[0] < numbers[1])
+  if (numbers[0] < numbers[1]){
+    
+  }
 }
 
 function includesNumber(){
