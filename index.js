@@ -47,7 +47,6 @@ function addUpTo(array, index) {
   }
 }
 array = [2, 3, 1, 4]
-
 function maxOf(array){
   let nums = array.slice()
   if (nums.length == 1){ 
@@ -68,8 +67,7 @@ function includesNumber(array, desiredIndex){
  return true 
  }
  if (desiredIndex != num[0]){
-   num.splice(0,1)
-  return includesNumber(array, desiredIndex);
- }
- else return false
+   num.splice(0, 1)
+   return includesNumber(num, desiredIndex);
+}
 }
