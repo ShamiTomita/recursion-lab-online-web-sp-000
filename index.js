@@ -17,7 +17,7 @@ function reverseString(myString){
   if (lastIndex === [0]){
     return true 
   } else {
-    myString.splice(lastIndex)
+    myString.splice(myString.length-1)
   }
 }
 
