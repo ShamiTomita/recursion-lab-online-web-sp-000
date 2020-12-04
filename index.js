@@ -56,7 +56,7 @@ function maxOf(array){
     numbers.splice(0,1);
   }
   else {
-    numbers.splice(1, 1)
+    numbers.splice(1, 1);
   }
     
   }
