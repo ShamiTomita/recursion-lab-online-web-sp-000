@@ -49,7 +49,7 @@ function addUpTo(array, index) {
 array = [2, 3, 1, 4]
 function maxOf(array){
   nums = array.slice()
-  if (nums.length == 1){ //base case, if we are at the bottom of the barrel, as in no more numbers to compare, we should return the remaining number at index[0] because last one standing is our biggest index 
+  if (nums.length == 1){ 
     return nums[0]
   }
   if (nums[0] < nums[1]){
