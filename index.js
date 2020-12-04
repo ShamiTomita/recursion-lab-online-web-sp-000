@@ -62,14 +62,12 @@ function maxOf(array){
 }
 
 function includesNumber(array, desiredIndex){
- if (desiredIndex == array[0]){
+ let num = array.slice()
+ if (desiredIndex == num[0]){
  return true 
  }
- if (desiredIndex != array[0]){
-   array.splice(0,1)
-   includesNumber(array, desiredIndex);
- }
- else{
-   return false;
- }
+ if (desiredIndex != num[0])
+   num.splice(0,1)
+   
+return includesNumber(num, desiredIndex);
 }
