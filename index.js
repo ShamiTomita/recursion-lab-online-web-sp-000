@@ -70,7 +70,7 @@ function includesNumber(array, desiredIndex){
  return true 
  }
  else {
-   (desiredIndex != num[0] && array.length > 1)
+   (desiredIndex != num[0])
    num.splice(0,1)
  }
    return includesNumber(num, desiredIndex);
