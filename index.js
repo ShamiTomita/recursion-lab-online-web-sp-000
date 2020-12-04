@@ -15,7 +15,7 @@ function reverseString(myString){
   if (myString === ""){
     return ""
   } else {
-    return reverseString(myString.substr(1)) + str.charAt(0);
+    return reverseString(myString.substr(1)) + myString.charAt(0);
   }
 }
 
