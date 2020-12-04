@@ -12,7 +12,6 @@ function printString(myString) {
 }
 
 function reverseString(myString){
-  let newString = []
   let lastIndex = (myString.length-1)
   if (lastIndex === [0]){
     return true 
