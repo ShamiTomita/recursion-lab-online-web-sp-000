@@ -17,7 +17,7 @@ function reverseString(myString){
   if (lastIndex === [0]){
     return true 
   } else {
-    myString.pop()
+    newString = reverseString(myString.pop());
   }
 }
 
