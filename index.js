@@ -61,7 +61,7 @@ function maxOf(array){
   return maxOf(nums);
 }
 
-function includesNumber(){
+function includesNumber(array, index){
   let nums = array.slice()
   if (nums.length == 1){ 
     return nums[0]
@@ -72,5 +72,5 @@ function includesNumber(){
   else {
     nums.splice(1, 1);
   }
-  return includesNumber(nums);
+  return false
 }
