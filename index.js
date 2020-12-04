@@ -12,9 +12,8 @@ function printString(myString) {
 }
 
 function reverseString(myString){
-  let lastIndex = (myString.length-1)
-  if (lastIndex === ""){
-    return true 
+  if (myString === ""){
+    return ""
   } else {
     myString.splice(myString.length-1)
   }
