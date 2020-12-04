@@ -65,10 +65,8 @@ function includesNumber(array, desiredIndex){
  let num = array.slice()
  if (desiredIndex == num[0]){
    return true
-   } else {
-     return false 
  }
- if (desiredIndex != num[0]){
+ if (desiredIndex != num[0] && num.length >1){
    num.splice(0,1);
  }
    return includesNumber(num, desiredIndex)
