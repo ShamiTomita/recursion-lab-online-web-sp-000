@@ -58,7 +58,7 @@ function maxOf(array){
   else {
     numbers.splice(1, 1);
   }
-  return maxOf(array)
+  return maxOf(numbers);
 }
 
 function includesNumber(){
