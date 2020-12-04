@@ -62,7 +62,7 @@ function maxOf(array){
 }
 
 function includesNumber(array, desiredIndex){
- let num = array.slice()
+ let num = array
  if (num.length == 1){ 
     return num[0]
   }
