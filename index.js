@@ -55,7 +55,9 @@ function maxOf(array){
   if (numbers[0] < numbers[1]){
     numbers.splice(0,1);
   }
-  else 
+  else {
+    numbers
+  }
     
   }
 }
