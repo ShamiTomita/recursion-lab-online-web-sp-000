@@ -67,11 +67,9 @@ function includesNumber(array, desiredIndex){
     if (desiredIndex == num[0]){
     return true 
     }
- }
- if (desiredIndex != num[0] && array.length > 1){
+    else (desiredIndex != num[0]){
    num.splice(0,1)
- } else {
-   return false
+    }
  }
    return includesNumber(num, desiredIndex);
 }
