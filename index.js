@@ -47,8 +47,8 @@ function addUpTo(array, index) {
   }
 }
 
-function maxOf(){
-  
+function maxOf(array){
+  numbers = 
 }
 
 function includesNumber(){
