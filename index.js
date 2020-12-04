@@ -14,7 +14,7 @@ function printString(myString) {
 function reverseString(myString){
   let lastIndex = (myString.length-1)
   if (lastIndex === 0){
-    
+    break
   }
 }
 
