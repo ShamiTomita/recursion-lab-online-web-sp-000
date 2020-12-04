@@ -66,7 +66,8 @@ function includesNumber(array, desiredIndex){
  if (desiredIndex == num[0]){
    return true
  }
- else (desiredIndex != num[0])
-   num.splice(0,1)
-return includesNumber(num, desiredIndex)     
 }
+ //else (desiredIndex != num[0])
+   //num.splice(0,1)
+//return includesNumber(num, desiredIndex)     
+//}
