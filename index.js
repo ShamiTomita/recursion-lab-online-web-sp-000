@@ -49,6 +49,7 @@ function addUpTo(array, index) {
 
 function maxOf(array){
   numbers = array.slice()
+  if 
 }
 
 function includesNumber(){
