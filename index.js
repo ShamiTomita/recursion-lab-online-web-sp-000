@@ -52,6 +52,7 @@ function maxOf(array){
   if (numbers.length == 1){ //base case, if we are at the bottom of the barrel, as in no more numbers to compare, we should return the remaining number at index[0] because last one standing is our biggest index 
     return numbers[0]
   }
+  if 
 }
 
 function includesNumber(){
