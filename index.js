@@ -62,13 +62,14 @@ function maxOf(array){
 }
 
 function includesNumber(array, desiredIndex){
- let length = array.length //storing the array in a variable 
+ let num = array.slice() //storing the array in a variable
  if (desiredIndex == num[0]){
  return true //base case or the ideal goal
- }
- else return false
- }
- if (desiredIndex != num[0]){
+ } else { //if the base case is not met, i want my recursive call to happen 
+   if (desiredIndex != num[0]){
    num.splice(0,1)
-return includesNumber(num, desiredIndex)     
+    return includesNumber(num, desiredIndex)  
+ }
+    
+}
 }
