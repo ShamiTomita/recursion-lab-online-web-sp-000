@@ -47,6 +47,7 @@ function addUpTo(array, index) {
   }
 }
 array = [2, 3, 1, 4]
+
 function maxOf(array){
   let nums = array.slice()
   if (nums.length == 1){ 
