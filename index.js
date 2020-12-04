@@ -52,8 +52,8 @@ function maxOf(array){
   if (nums.length == 1){ //base case, if we are at the bottom of the barrel, as in no more numbers to compare, we should return the remaining number at index[0] because last one standing is our biggest index 
     return nums[0]
   }
-  if (numbers[0] < numbers[1]){
-    numbers.splice(0,1);
+  if (nums[0] < nums[1]){
+    nums.splice(0,1);
   }
   else {
     nums.splice(1, 1);
