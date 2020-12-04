@@ -61,16 +61,15 @@ function maxOf(array){
   return maxOf(nums);
 }
 
-function includesNumber(array, index){
-  let nums = array.slice()
+function includesNumber(array, desiredIndex){
+  let nums = array.slice();
   if (nums.length == 1){ 
     return nums[0]
   }
-  if (nums[0] == nums[1]){
+  if (nums[0] == desiredIndex){
     return true
   }
   else {
-    nums.splice(1, 1);
+    nums.splice(0, 1);
   }
-  return false
 }
