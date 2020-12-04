@@ -67,9 +67,16 @@ function includesNumber(array, desiredIndex){
  return true //base case or the ideal goal
  } else { //if the base case is not met, i want my recursive call to happen 
    if (desiredIndex != num[0]){
-   num.splice(0,1)
-    return includesNumber(num, desiredIndex)  
+      num.splice(0,1)
+      return includesNumber(num, desiredIndex)  
  }
     
 }
+}
+
+function includesNumber(array, desiredIndex){
+  let num = array.slice()
+  if (desiredIndex != num[0]){
+    
+  }
 }
